@@ -50,11 +50,11 @@
 
 ### Public projects
 
+- 🪞 **[Prismo](https://github.com/Quirciano15/Prismo)** — agency landing for my web + automations studio. Live at [prismo.digital](https://prismo.digital). Custom GLSL glass-prism scene on Next 16: fresnel + refraction + chromatic dispersion, mobile-first, `prefers-reduced-motion`-aware.
 - 🤖 **[claude-skills-collection](https://github.com/Quirciano15/claude-skills-collection)** — Claude Code skills I use for SEO and AI-search work (technical audits, keyword research, GEO query mining).
 
 ### In progress *(private for now — happy to demo)*
 
-- 🪞 **prismo-web** — agency landing for Prismo (my web + automations studio). Custom GLSL glass-prism scene on Next 16: fresnel + refraction + chromatic dispersion, mobile-first, `prefers-reduced-motion`-aware.
 - 🎨 **bonnibel** — portfolio + web experiments lab. Three.js shaders, GSAP scroll choreography, Motion micro-interactions.
 - 🛒 **estanteria-medusa** — the Medusa.js backend powering the Shopify → headless migration of La Estantería Oculta. Custom modules, R2 media, Stripe checkout.
 - 🎼 **filarmonic** — the SATB harmony corrector. Music theory rules engine on top of `music21`, MusicXML pipeline, React frontend.
