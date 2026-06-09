@@ -12,9 +12,10 @@
 
 ### Now
 
-- Migrating **La Estantería Oculta** from Shopify to a custom **Next.js 16 + Medusa.js** storefront *(private — case study available on request)*.
-- Building **Filarmonic**, a niche EdTech SaaS that auto-grades tonal harmony exercises *(private — happy to demo)*.
-- Open-sourcing the **technical building blocks** of those products as standalone libraries (see below).
+- Migrating **La Estantería Oculta** (an indie bookstore) from Shopify to a custom **Next.js 16 + Medusa.js** storefront. Case study and demo on request.
+- Building **Filarmonic**, a niche EdTech SaaS that auto-grades tonal harmony exercises (SATB). FastAPI + `music21` backend, React frontend.
+- Curating the Claude Code skills I use day-to-day into a public repo.
+- Writing the technical building blocks of the above as standalone open-source modules — *in progress, not yet published.*
 
 ### Stack
 
@@ -47,27 +48,21 @@
 
 ---
 
-### Featured work
-
-**Showcases**
-
-- 🎨 **[bonnibel](https://github.com/Quirciano15/bonnibel)** — portfolio + web experiments lab. Three.js shaders, GSAP scroll choreography, Motion micro-interactions on Next 16.
-- 🪞 **[prismo-web](https://github.com/Quirciano15/Prismo)** — agency landing. Glass-prism scene with custom GLSL (fresnel + refraction + chromatic dispersion). Mobile-first, `prefers-reduced-motion`-aware.
-
-**Open-source building blocks** *(extracted from production work)*
-
-- 🎼 **[harmony-rules-engine](https://github.com/Quirciano15/harmony-rules-engine)** — SATB tonal-harmony rule engine on top of `music21`. The core analysis layer behind Filarmonic, as a standalone Python library.
-- 🛒 **[medusa-r2-module](https://github.com/Quirciano15/medusa-r2-module)** — Cloudflare R2 file provider for Medusa.js v2. Drop-in replacement for S3 with cost savings.
-- ✨ **[shader-playground](https://github.com/Quirciano15/shader-playground)** — annotated GLSL playground (R3F + Next 16). Fresnel, refraction, chromatic dispersion explained.
-
-**Tooling**
+### Public projects
 
 - 🤖 **[claude-skills-collection](https://github.com/Quirciano15/claude-skills-collection)** — Claude Code skills I use for SEO and AI-search work (technical audits, keyword research, GEO query mining).
 
+### In progress *(private for now — happy to demo)*
+
+- 🪞 **prismo-web** — agency landing for Prismo (my web + automations studio). Custom GLSL glass-prism scene on Next 16: fresnel + refraction + chromatic dispersion, mobile-first, `prefers-reduced-motion`-aware.
+- 🎨 **bonnibel** — portfolio + web experiments lab. Three.js shaders, GSAP scroll choreography, Motion micro-interactions.
+- 🛒 **estanteria-medusa** — the Medusa.js backend powering the Shopify → headless migration of La Estantería Oculta. Custom modules, R2 media, Stripe checkout.
+- 🎼 **filarmonic** — the SATB harmony corrector. Music theory rules engine on top of `music21`, MusicXML pipeline, React frontend.
+
 ### Writing
 
-Coming soon — *Animating Next 16 with Three.js + Motion without killing your Web Vitals*.
+Coming soon — *Animating Next 16 with Three.js + Motion without killing your Web Vitals.*
 
 ---
 
-<sub>This profile is itself a repo: [`Quirciano15/Quirciano15`](https://github.com/Quirciano15/Quirciano15). Recruiter speed-tour: **bonnibel → prismo-web → harmony-rules-engine**.</sub>
+<sub>This profile is itself a repo: [`Quirciano15/Quirciano15`](https://github.com/Quirciano15/Quirciano15).</sub>
