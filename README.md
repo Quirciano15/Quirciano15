@@ -62,7 +62,7 @@
 
 **Tooling**
 
-- 🤖 **[claude-skills](https://github.com/Quirciano15/claude-skills-collection)** — curated Claude Code skills I use daily (Stitch UI design, SEO audits, deploy workflows).
+- 🤖 **[claude-skills-collection](https://github.com/Quirciano15/claude-skills-collection)** — Claude Code skills I use for SEO and AI-search work (technical audits, keyword research, GEO query mining).
 
 ### Writing
 
