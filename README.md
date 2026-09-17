@@ -4,7 +4,7 @@
 
 **Full-stack engineer building animated, AI-native web products.**
 
-[albertoquirce.dev](https://albertoquirce.dev) · [Email](mailto:quirciano@gmail.com) · Spain
+[Email](mailto:quirciano@gmail.com) · Spain
 
 </div>
 
