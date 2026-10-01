@@ -17,9 +17,14 @@ for (const { file, w, h } of MANIFEST.filter((m) => !only || m.file === only)) {
     const page = await browser.newPage();
     await page.setViewport({ width, height: 200, deviceScaleFactor: 1 });
     if (reduced) await page.emulateMediaFeatures([{ name: 'prefers-reduced-motion', value: 'reduce' }]);
-    const html = `${OUT}${name}-${tag}.html`;
-    writeFileSync(html, `<body style="margin:0;background:${bg}"><img src="file://${ASSETS}${file}" style="width:100%;display:block"></body>`);
-    await page.goto(`file://${html}`);
+    if (reduced) {
+      // La emulación de media features no llega a un SVG dentro de <img>: se carga como documento.
+      await page.goto(`file://${ASSETS}${file}`);
+    } else {
+      const html = `${OUT}${name}-${tag}.html`;
+      writeFileSync(html, `<body style="margin:0;background:${bg}"><img src="file://${ASSETS}${file}" style="width:100%;display:block"></body>`);
+      await page.goto(`file://${html}`);
+    }
     let t = 0;
     for (const at of waits) {
       await sleep(Math.max(0, (at - t) * 1000));
