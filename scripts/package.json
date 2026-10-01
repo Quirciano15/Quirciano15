@@ -1,0 +1,16 @@
+{
+  "name": "profile-readme-build",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test/",
+    "shot": "node shot.mjs"
+  },
+  "dependencies": {
+    "fontkit": "^2.0.4"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.0.0"
+  }
+}
