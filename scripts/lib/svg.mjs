@@ -62,11 +62,13 @@ export function typedLines({ id, x, y, lineH, bg, size, fill, lines, cycle = 14,
     const e = s + (per / cycle) * 100;
     css += `.${id}${i}{transform-box:fill-box;transform:translateX(112%);animation:${id}${i} ${cycle}s steps(${n},end) infinite}
 @keyframes ${id}${i}{0%,${s.toFixed(2)}%{transform:translateX(0)}${e.toFixed(2)}%,100%{transform:translateX(112%)}}
+.${id}k${i}{opacity:0;animation:${id}k${i} ${cycle}s step-end infinite}
+@keyframes ${id}k${i}{0%{opacity:${s === 0 ? 1 : 0}}${s.toFixed(2)}%{opacity:1}${e.toFixed(2)}%,100%{opacity:0}}
 `;
     svg += `<defs><clipPath id="${id}-c${i}"><rect x="${x - 4}" y="${base - size}" width="${cw + 8}" height="${size + 12}"/></clipPath></defs>
 <g clip-path="url(#${id}-c${i})">
 <text x="${x}" y="${base}" font-family="${FONT_MONO}" font-size="${size}" font-weight="700" fill="${fill}">${esc(t)}</text>
-<g class="${id}${i}"><rect x="${x - 2}" y="${base - size}" width="${cw}" height="${size + 12}" fill="${bg}"/><rect x="${x - 2}" y="${base - size + 2}" width="5" height="${size + 4}" rx="2" fill="${cursor}"/></g>
+<g class="${id}${i}"><rect x="${x - 2}" y="${base - size}" width="${cw}" height="${size + 12}" fill="${bg}"/><rect class="${id}k${i}" x="${x - 2}" y="${base - size + 2}" width="5" height="${size + 4}" rx="2" fill="${cursor}"/></g>
 </g>
 `;
   });

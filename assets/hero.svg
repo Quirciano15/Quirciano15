@@ -22,6 +22,8 @@
 @keyframes wig{0%,100%{transform:rotate(0)}50%{transform:rotate(3deg)}}
 .ty0{transform-box:fill-box;transform:translateX(112%);animation:ty0 9s steps(40,end) infinite}
 @keyframes ty0{0%,0.00%{transform:translateX(0)}35.56%,100%{transform:translateX(112%)}}
+.tyk0{opacity:0;animation:tyk0 9s step-end infinite}
+@keyframes tyk0{0%{opacity:1}0.00%{opacity:1}35.56%,100%{opacity:0}}
 
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
@@ -51,7 +53,7 @@
 <defs><clipPath id="ty-c0"><rect x="42" y="306" width="665" height="38"/></clipPath></defs>
 <g clip-path="url(#ty-c0)">
 <text x="46" y="332" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">Webs que se mueven + IA que curra por ti</text>
-<g class="ty0"><rect x="44" y="306" width="657" height="38" fill="#ffd9e8"/><rect x="44" y="308" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
+<g class="ty0"><rect x="44" y="306" width="657" height="38" fill="#ffd9e8"/><rect class="tyk0" x="44" y="308" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
 </g>
 
 <text x="46" y="378" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="22" font-weight="700" fill="#1a1612" fill-opacity=".7">Full-stack · Madrid · Next.js, motion e IA</text>
