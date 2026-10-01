@@ -7,7 +7,11 @@ function font() {
   if (!_font) _font = fontkit.openSync(FONT_FILE).getVariation({ wght: 800, wdth: 100, opsz: 96 });
   return _font;
 }
-const num = (d) => d.replace(/-?\d+\.\d+/g, (n) => String(Math.round(parseFloat(n) * 10) / 10));
+/** Redondea las coordenadas: 1 decimal en titulares grandes, enteros en texto pequeño (pesa mucho menos). */
+const num = (d, dec) => {
+  const k = 10 ** dec;
+  return d.replace(/-?\d+\.\d+/g, (n) => String(Math.round(parseFloat(n) * k) / k));
+};
 const cache = new Map();
 
 /** Path con la línea base en y=0, ya escalado a `size` px y con el eje Y hacia abajo. */
@@ -24,7 +28,7 @@ export function measure(str, size) {
     d += g.path.translate(pen + p.xOffset, p.yOffset).scale(k, -k).toSVG();
     pen += p.xAdvance;
   });
-  const out = { d: num(d), w: pen * k };
+  const out = { d: num(d, size >= 60 ? 1 : 0), w: pen * k };
   cache.set(key, out);
   return out;
 }

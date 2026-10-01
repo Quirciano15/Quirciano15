@@ -16,7 +16,7 @@ export function build() {
     x += 34;
   }
   const U = Math.round(x);
-  const copies = Array.from({ length: 3 }, (_, i) => `<g transform="translate(${i * U} 0)">${unit}</g>`).join('');
+  const copies = `<defs><g id="tu">${unit}</g></defs>` + Array.from({ length: 3 }, (_, i) => `<use href="#tu" x="${i * U}"/>`).join('');
   const stripes = `<defs><pattern id="st" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="14" height="28" fill="${C.ink}" fill-opacity=".08"/></pattern></defs>`;
   const css = `.run{animation:run 14s linear infinite}
 @keyframes run{from{transform:translateX(0)}to{transform:translateX(-${U}px)}}`;
