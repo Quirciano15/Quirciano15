@@ -19,7 +19,7 @@ export function build() {
   const beam = `<polygon class="beam" points="540,212 662,196 662,226 540,218" fill="#fff"/>`;
   const typed = typedLines({
     id: 'ty', x: 46, y: 332, lineH: 36, bg: C.pinkPastel, size: 26, fill: C.ink,
-    lines: ['Webs que se mueven + IA que curra por ti'], cycle: 9, per: 3.2,
+    lines: ['Webs que se mueven más que tú en la pista.'], cycle: 9, per: 3.2,
   });
   const hola = sticker({
     x: 40, y: 38, w: measure('HOLA, SOY', 24).w + 36, h: 46, fill: C.green, rot: -4, cls: 'wig',
@@ -42,7 +42,7 @@ ${hola}
 ${ptext('ALBERTO', { x: 44, y: 160, size: 100, fill: '#fff', stroke: C.ink, sw: 12, shadow: { dx: 6, dy: 6, fill: C.ink } })}
 ${ptext('QUIRCE', { x: 44, y: 258, size: 100, fill: C.pink, stroke: C.ink, sw: 12, shadow: { dx: 6, dy: 6, fill: C.ink } })}
 ${typed.svg}
-<text x="46" y="378" font-family="${FONT_MONO}" font-size="26" font-weight="700" fill="${C.pinkDeep}">Full-stack · Madrid · Next.js, motion e IA</text>
+<text x="46" y="378" font-family="${FONT_MONO}" font-size="26" font-weight="700" fill="${C.pinkDeep}">Full-stack · Madrid · con mucho arte</text>
 ${f.close}`;
   return svgDoc({
     w: W, h: H, css, body,

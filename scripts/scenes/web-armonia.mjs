@@ -37,10 +37,10 @@ ${sparkle({ x: 580, y: 36, r: 12, fill: C.yellow })}`;
     id: 'wm',
     a11y: {
       title: 'Filarmonic: corrector de armonía y blog de música — correctorarmonia.com',
-      desc: 'Tarjeta azul con un pentagrama por el que desfilan notas, un acorde que se ilumina nota a nota y un sello verde de corregido. Texto: Corrector de ejercicios de armonía SATB y blog de teoría, práctica y equipo. Botón verde: correctorarmonia.com.',
+      desc: 'Tarjeta azul con un pentagrama por el que desfilan notas, un acorde que se ilumina nota a nota y un sello verde de corregido. Texto: Corrige tu armonía SATB y te dice dónde la has liado. Botón verde: correctorarmonia.com.',
     },
     bg: C.blue, dotColor: '#fff', titleLines: ['FILARMONIC'], titleSize: 78, titleFill: '#fff',
-    subs: ['Corrector de armonía (SATB)', 'y blog de teoría y práctica.'], subFill: '#fff',
+    subs: ['Corrige tu armonía SATB', 'y te dice dónde la has liado.'], subFill: '#fff',
     cta: 'correctorarmonia.com', art,
     css: `.march{animation:march 3.6s linear infinite}
 @keyframes march{from{transform:translateX(0)}to{transform:translateX(-${PERIOD}px)}}

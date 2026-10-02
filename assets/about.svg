@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-labelledby="t d">
-<title id="t">Quién soy: Alberto, webs que se mueven y automatizaciones con IA</title>
-<desc id="d">Un robot de metal con antena saluda dentro de una viñeta de cómic donde se teclea: Hola, soy Alberto. Hago webs que se mueven y automatizaciones con IA para negocios de verdad. Madrid, Next.js, Three.js, Claude.</desc>
+<title id="t">Quién soy: Alberto, te monta la web, te la pone bonita y te la anima</title>
+<desc id="d">Un robot de metal con antena saluda dentro de una viñeta de cómic donde se teclea: ¿Qué pasa? Soy Alberto. Te monto la web, te la pongo bonita y encima te la animo. De nada. Madrid, Next.js, Three.js, Claude.</desc>
 <style>
 
 .bob{animation:bob 3s ease-in-out infinite}
@@ -13,19 +13,19 @@
 @keyframes wave{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(22deg)}}
 .twinkle{transform-box:fill-box;transform-origin:center;animation:twinkle 2.4s ease-in-out infinite}
 @keyframes twinkle{0%,100%{transform:scale(.4) rotate(0deg);opacity:.5}50%{transform:scale(1) rotate(45deg);opacity:1}}
-.tp0{transform-box:fill-box;transform:translateX(112%);animation:tp0 16s steps(20,end) infinite}
+.tp0{transform-box:fill-box;transform:translateX(112%);animation:tp0 16s steps(25,end) infinite}
 @keyframes tp0{0%,0.00%{transform:translateX(0)}11.25%,100%{transform:translateX(112%)}}
 .tpk0{opacity:0;animation:tpk0 16s step-end infinite}
 @keyframes tpk0{0%{opacity:1}0.00%{opacity:1}11.25%,100%{opacity:0}}
-.tp1{transform-box:fill-box;transform:translateX(112%);animation:tp1 16s steps(25,end) infinite}
+.tp1{transform-box:fill-box;transform:translateX(112%);animation:tp1 16s steps(24,end) infinite}
 @keyframes tp1{0%,15.00%{transform:translateX(0)}26.25%,100%{transform:translateX(112%)}}
 .tpk1{opacity:0;animation:tpk1 16s step-end infinite}
 @keyframes tpk1{0%{opacity:0}15.00%{opacity:1}26.25%,100%{opacity:0}}
-.tp2{transform-box:fill-box;transform:translateX(112%);animation:tp2 16s steps(27,end) infinite}
+.tp2{transform-box:fill-box;transform:translateX(112%);animation:tp2 16s steps(23,end) infinite}
 @keyframes tp2{0%,30.00%{transform:translateX(0)}41.25%,100%{transform:translateX(112%)}}
 .tpk2{opacity:0;animation:tpk2 16s step-end infinite}
 @keyframes tpk2{0%{opacity:0}30.00%{opacity:1}41.25%,100%{opacity:0}}
-.tp3{transform-box:fill-box;transform:translateX(112%);animation:tp3 16s steps(26,end) infinite}
+.tp3{transform-box:fill-box;transform:translateX(112%);animation:tp3 16s steps(23,end) infinite}
 @keyframes tp3{0%,45.00%{transform:translateX(0)}56.25%,100%{transform:translateX(112%)}}
 .tpk3{opacity:0;animation:tpk3 16s step-end infinite}
 @keyframes tpk3{0%{opacity:0}45.00%{opacity:1}56.25%,100%{opacity:0}}
@@ -56,25 +56,25 @@
 <path d="M303 140 L250 176 L303 192 Z" fill="#fff" stroke="#1a1612" stroke-width="3" stroke-linejoin="round"/>
 <rect x="298" y="144" width="8" height="46" fill="#fff"/>
 </g>
-<defs><clipPath id="tp-c0"><rect x="326" y="86" width="343" height="38"/></clipPath></defs>
+<defs><clipPath id="tp-c0"><rect x="326" y="86" width="423" height="38"/></clipPath></defs>
 <g clip-path="url(#tp-c0)">
-<text x="330" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">&gt; Hola, soy Alberto.</text>
-<g class="tp0"><rect x="328" y="86" width="335" height="38" fill="#fff"/><rect class="tpk0" x="328" y="88" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
+<text x="330" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">&gt; ¿Qué pasa? Soy Alberto.</text>
+<g class="tp0"><rect x="328" y="86" width="415" height="38" fill="#fff"/><rect class="tpk0" x="328" y="88" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
 </g>
-<defs><clipPath id="tp-c1"><rect x="326" y="128" width="423" height="38"/></clipPath></defs>
+<defs><clipPath id="tp-c1"><rect x="326" y="128" width="407" height="38"/></clipPath></defs>
 <g clip-path="url(#tp-c1)">
-<text x="330" y="154" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">&gt; Hago webs que se mueven</text>
-<g class="tp1"><rect x="328" y="128" width="415" height="38" fill="#fff"/><rect class="tpk1" x="328" y="130" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
+<text x="330" y="154" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">&gt; Te monto la web, te la</text>
+<g class="tp1"><rect x="328" y="128" width="399" height="38" fill="#fff"/><rect class="tpk1" x="328" y="130" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
 </g>
-<defs><clipPath id="tp-c2"><rect x="326" y="170" width="456" height="38"/></clipPath></defs>
+<defs><clipPath id="tp-c2"><rect x="326" y="170" width="391" height="38"/></clipPath></defs>
 <g clip-path="url(#tp-c2)">
-<text x="330" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">&gt; y automatizaciones con IA</text>
-<g class="tp2"><rect x="328" y="170" width="448" height="38" fill="#fff"/><rect class="tpk2" x="328" y="172" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
+<text x="330" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">&gt; pongo bonita y encima</text>
+<g class="tp2"><rect x="328" y="170" width="383" height="38" fill="#fff"/><rect class="tpk2" x="328" y="172" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
 </g>
-<defs><clipPath id="tp-c3"><rect x="326" y="212" width="440" height="38"/></clipPath></defs>
+<defs><clipPath id="tp-c3"><rect x="326" y="212" width="391" height="38"/></clipPath></defs>
 <g clip-path="url(#tp-c3)">
-<text x="330" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">&gt; para negocios de verdad.</text>
-<g class="tp3"><rect x="328" y="212" width="432" height="38" fill="#fff"/><rect class="tpk3" x="328" y="214" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
+<text x="330" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="26" font-weight="700" fill="#1a1612">&gt; te la animo. De nada.</text>
+<g class="tp3"><rect x="328" y="212" width="383" height="38" fill="#fff"/><rect class="tpk3" x="328" y="214" width="5" height="30" rx="2" fill="#ff2a7b"/></g>
 </g>
 
 <path transform="translate(330 282)" d="M1 0L1 -17L7 -17L11 -5L11 -5L14 -17L20 -17L20 0L16 0L16 -13L16 -13L13 0L9 0L5 -13L5 -13L5 0ZM21 0L27 -17L33 -17L38 0L34 0L30 -14L30 -14L26 0ZM25 -3L25 -6L36 -6L36 -3ZM41 0L41 -4L46 -4Q47 -4 48 -4Q49 -4 49 -5Q50 -6 50 -9Q50 -10 49 -11Q49 -12 49 -13Q48 -13 47 -13Q46 -14 45 -14L41 -14L41 -17L45 -17Q48 -17 50 -16Q52 -15 53 -13Q54 -11 54 -9Q54 -7 54 -5Q53 -4 52 -3Q51 -2 50 -1Q49 -1 48 0Q47 0 46 0ZM40 0L40 -17L44 -17L44 0ZM56 0L56 -17L63 -17Q64 -17 65 -17Q66 -17 67 -16Q68 -16 68 -15Q69 -15 69 -14Q70 -13 70 -12Q70 -11 69 -11Q69 -10 69 -9Q68 -9 67 -8Q66 -8 65 -8L65 -8Q66 -8 67 -7Q68 -6 69 -6Q69 -5 69 -4L70 0L66 0L65 -3Q65 -4 65 -5Q64 -5 64 -6Q63 -6 62 -6L60 -6L60 0ZM60 -9L62 -9Q64 -9 65 -10Q65 -10 65 -11Q65 -13 65 -13Q64 -14 62 -14L60 -14ZM72 0L72 -17L76 -17L76 0ZM80 0L80 -4L84 -4Q85 -4 86 -4Q87 -4 88 -5Q88 -6 88 -9Q88 -10 88 -11Q88 -12 87 -13Q86 -13 86 -13Q85 -14 84 -14L80 -14L80 -17L84 -17Q87 -17 89 -16Q91 -15 92 -13Q92 -11 92 -9Q92 -7 92 -5Q92 -4 91 -3Q90 -2 89 -1Q88 -1 87 0Q86 0 85 0ZM78 0L78 -17L82 -17L82 0ZM102 -6Q100 -6 100 -7Q99 -7 99 -8Q99 -10 100 -10Q100 -11 102 -11Q103 -11 104 -10Q104 -10 104 -8Q104 -6 102 -6ZM111 0L111 -17L117 -17L123 -6L123 -6L123 -17L127 -17L127 0L122 0L115 -12L115 -12L115 0ZM129 0L129 -17L133 -17L133 0ZM132 0L132 -4L141 -4L141 0ZM132 -7L132 -10L140 -10L140 -7ZM132 -14L132 -17L141 -17L141 -14ZM143 0L148 -8L143 -17L148 -17L150 -11L150 -11L153 -17L158 -17L153 -9L158 0L153 0L150 -7L150 -7L148 0ZM163 0L163 -17L167 -17L167 0ZM159 -14L159 -17L172 -17L172 -14ZM173 0Q172 0 171 0Q170 -1 170 -2Q170 -3 171 -4Q172 -4 173 -4Q174 -4 175 -4Q176 -3 176 -2Q176 0 173 0ZM177 0L177 -4Q177 -4 177 -4Q178 -4 178 -4Q179 -4 179 -4Q179 -4 180 -5Q180 -5 180 -6L180 -17L184 -17L184 -6Q184 -4 183 -3Q183 -1 182 0Q180 0 178 0Q178 0 178 0Q178 0 177 0ZM193 0Q191 0 190 0Q188 0 187 -1Q186 -2 186 -3Q186 -4 186 -6L189 -6Q190 -5 190 -5Q190 -4 191 -3Q192 -3 193 -3Q194 -3 194 -3Q195 -3 195 -4Q196 -4 196 -5Q196 -5 195 -6Q195 -6 194 -6Q193 -7 192 -7Q191 -7 190 -8Q189 -8 188 -9Q187 -9 186 -10Q186 -11 186 -12Q186 -14 187 -15Q187 -16 189 -17Q190 -18 192 -18Q194 -18 196 -17Q198 -16 198 -15Q199 -13 199 -12L195 -11Q195 -12 195 -12Q195 -13 195 -13Q194 -14 194 -14Q193 -14 192 -14Q191 -14 191 -14Q190 -14 190 -13Q190 -13 190 -13Q190 -12 190 -12Q191 -11 191 -11Q192 -11 193 -10Q194 -10 196 -10Q197 -9 198 -9Q199 -8 199 -7Q200 -6 200 -5Q200 -3 199 -2Q198 -1 196 0Q195 0 193 0ZM209 -6Q207 -6 207 -7Q206 -7 206 -8Q206 -10 207 -10Q207 -11 209 -11Q210 -11 211 -10Q211 -10 211 -8Q211 -6 209 -6ZM222 0L222 -17L226 -17L226 0ZM217 -14L217 -17L230 -17L230 -14ZM242 0L242 -17L246 -17L246 0ZM232 0L232 -17L236 -17L236 0ZM235 -7L235 -10L244 -10L244 -7ZM248 0L248 -17L255 -17Q256 -17 257 -17Q258 -17 259 -16Q260 -16 261 -15Q261 -15 262 -14Q262 -13 262 -12Q262 -11 262 -11Q262 -10 261 -9Q260 -9 259 -8Q259 -8 257 -8L257 -8Q259 -8 260 -7Q261 -6 261 -6Q262 -5 262 -4L263 0L258 0L257 -3Q257 -4 257 -5Q257 -5 256 -6Q255 -6 254 -6L252 -6L252 0ZM252 -9L255 -9Q256 -9 257 -10Q258 -10 258 -11Q258 -13 257 -13Q256 -14 255 -14L252 -14ZM264 0L264 -17L268 -17L268 0ZM267 0L267 -4L276 -4L276 0ZM267 -7L267 -10L275 -10L275 -7ZM267 -14L267 -17L276 -17L276 -14ZM278 0L278 -17L282 -17L282 0ZM281 0L281 -4L290 -4L290 0ZM281 -7L281 -10L289 -10L289 -7ZM281 -14L281 -17L290 -17L290 -14ZM294 0Q293 0 292 0Q292 -1 292 -2Q292 -3 292 -4Q293 -4 294 -4Q296 -4 296 -4Q297 -3 297 -2Q297 0 294 0ZM299 0L298 -4Q299 -4 299 -4Q299 -4 299 -4Q300 -4 300 -4Q301 -4 301 -5Q301 -5 301 -6L301 -17L305 -17L305 -6Q305 -4 305 -3Q304 -1 303 0Q302 0 300 0Q299 0 299 0Q299 0 299 0ZM314 0Q312 0 311 0Q310 0 309 -1Q308 -2 307 -3Q307 -4 307 -6L311 -6Q311 -5 311 -5Q312 -4 313 -3Q313 -3 314 -3Q315 -3 316 -3Q316 -3 317 -4Q317 -4 317 -5Q317 -5 317 -6Q316 -6 315 -6Q315 -7 313 -7Q312 -7 311 -8Q310 -8 309 -9Q308 -9 308 -10Q307 -11 307 -12Q307 -14 308 -15Q309 -16 310 -17Q312 -18 314 -18Q316 -18 317 -17Q319 -16 320 -15Q321 -13 321 -12L317 -11Q317 -12 317 -12Q316 -13 316 -13Q316 -14 315 -14Q314 -14 314 -14Q313 -14 312 -14Q312 -14 312 -13Q311 -13 311 -13Q311 -12 312 -12Q312 -11 313 -11Q314 -11 315 -10Q316 -10 317 -10Q318 -9 319 -9Q320 -8 321 -7Q321 -6 321 -5Q321 -3 320 -2Q319 -1 318 0Q316 0 314 0ZM330 -6Q329 -6 328 -7Q327 -7 327 -8Q327 -10 328 -10Q329 -11 330 -11Q331 -11 332 -10Q333 -10 333 -8Q333 -6 330 -6ZM347 0Q345 0 344 0Q342 -1 341 -2Q340 -4 340 -5Q339 -7 339 -9Q339 -10 340 -12Q340 -14 341 -15Q342 -16 344 -17Q345 -18 347 -18Q349 -18 351 -17Q352 -16 353 -16Q354 -15 354 -13Q354 -12 354 -11L350 -10Q350 -12 350 -12Q350 -13 349 -14Q348 -14 347 -14Q346 -14 346 -14Q345 -13 345 -13Q344 -12 344 -11Q344 -10 344 -9Q344 -7 344 -6Q345 -4 345 -4Q346 -3 348 -3Q349 -3 349 -4Q350 -4 350 -5Q351 -6 351 -7L355 -7Q355 -6 354 -4Q354 -3 353 -2Q352 -1 351 0Q349 0 347 0ZM356 0L356 -17L360 -17L360 0ZM357 0L357 -4L367 -4L367 0ZM367 0L373 -17L379 -17L384 0L380 0L376 -14L376 -14L372 0ZM371 -3L371 -6L382 -6L382 -3ZM392 0Q390 0 389 0Q388 0 387 -1Q386 -2 386 -2Q385 -3 385 -4Q384 -5 384 -7L384 -17L389 -17L389 -7Q389 -6 389 -5Q389 -4 390 -4Q391 -3 392 -3Q393 -3 393 -4Q394 -4 394 -5Q395 -6 395 -7L395 -17L399 -17L399 -7Q399 -3 397 -2Q395 0 392 0ZM403 0L403 -4L407 -4Q408 -4 409 -4Q410 -4 410 -5Q411 -6 411 -9Q411 -10 411 -11Q410 -12 410 -13Q409 -13 409 -13Q408 -14 407 -14L403 -14L403 -17L407 -17Q410 -17 412 -16Q414 -15 414 -13Q415 -11 415 -9Q415 -7 415 -5Q414 -4 414 -3Q413 -2 412 -1Q411 -1 410 0Q408 0 407 0ZM401 0L401 -17L405 -17L405 0ZM417 0L417 -17L421 -17L421 0ZM420 0L420 -4L429 -4L429 0ZM420 -7L420 -10L428 -10L428 -7ZM420 -14L420 -17L429 -17L429 -14Z" fill="#dc0059"/>

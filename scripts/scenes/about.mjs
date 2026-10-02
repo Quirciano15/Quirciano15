@@ -11,7 +11,7 @@ export function build() {
   const d = dots('ad', C.ink, 0.07);
   const typed = typedLines({
     id: 'tp', x: 330, y: 112, lineH: 42, bg: '#fff', size: 26, fill: C.ink, cycle: 16, per: 1.8, gap: 0.6,
-    lines: ['> Hola, soy Alberto.', '> Hago webs que se mueven', '> y automatizaciones con IA', '> para negocios de verdad.'],
+    lines: ['> ¿Qué pasa? Soy Alberto.', '> Te monto la web, te la', '> pongo bonita y encima', '> te la animo. De nada.'],
   });
   const bubble = `<g>
 <rect x="305" y="53" width="545" height="255" rx="34" fill="${C.ink}"/>
@@ -30,7 +30,7 @@ ${ptext('MADRID · NEXT.JS · THREE.JS · CLAUDE', { x: 330, y: 282, size: 26, f
 ${f.close}`;
   return svgDoc({
     w: W, h: H, css, body,
-    title: 'Quién soy: Alberto, webs que se mueven y automatizaciones con IA',
-    desc: 'Un robot de metal con antena saluda dentro de una viñeta de cómic donde se teclea: Hola, soy Alberto. Hago webs que se mueven y automatizaciones con IA para negocios de verdad. Madrid, Next.js, Three.js, Claude.',
+    title: 'Quién soy: Alberto, te monta la web, te la pone bonita y te la anima',
+    desc: 'Un robot de metal con antena saluda dentro de una viñeta de cómic donde se teclea: ¿Qué pasa? Soy Alberto. Te monto la web, te la pongo bonita y encima te la animo. De nada. Madrid, Next.js, Three.js, Claude.',
   });
 }

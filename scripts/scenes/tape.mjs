@@ -4,7 +4,7 @@ import { ptext, measure } from '../lib/text.mjs';
 
 export const file = 'tape.svg';
 const W = 900, H = 70;
-const WORDS = ['WEBS', 'AUTOMATIZACIONES', 'IA', 'MOVIMIENTO', 'CÓDIGO CON CARÁCTER'];
+const WORDS = ['WEBS CON ARTE', 'BOTS CURRANDO', 'CERO PLANTILLAS', 'MADRID CITY'];
 
 export function build() {
   let x = 0;
@@ -28,7 +28,7 @@ export function build() {
 </g>`;
   return svgDoc({
     w: W, h: H, css, body,
-    title: 'Cinta amarilla: webs, automatizaciones, IA, movimiento',
-    desc: 'Cinta de precaución amarilla que desfila de derecha a izquierda con las palabras webs, automatizaciones, IA, movimiento y código con carácter.',
+    title: 'Cinta amarilla: webs con arte, bots currando, cero plantillas, Madrid city',
+    desc: 'Cinta de precaución amarilla que desfila de derecha a izquierda con las frases webs con arte, bots currando, cero plantillas y Madrid city.',
   });
 }
