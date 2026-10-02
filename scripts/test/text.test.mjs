@@ -16,6 +16,14 @@ test('la fuente tiene glifo para los acentos que usamos', () => {
   assert.equal(hasGlyphs('ESTANTERÍA ARMONÍA ESPAÑA ÓÁÉÚñ'), true);
 });
 
+test('measure rechaza texto con caracteres que la fuente no tiene (evita .notdef silencioso)', () => {
+  assert.throws(() => measure('日本語', 40), /glifo/i);
+});
+
+test('ptext rechaza tamaños ilegibles en móvil (< 22)', () => {
+  assert.throws(() => ptext('HOLA', { x: 0, y: 0, size: 20, fill: '#000' }), /22/);
+});
+
 test('ptext genera un <path> con translate y respeta anchor=middle', () => {
   const a = ptext('HOLA', { x: 100, y: 50, size: 40, fill: '#fff' });
   const b = ptext('HOLA', { x: 100, y: 50, size: 40, fill: '#fff', anchor: 'middle' });

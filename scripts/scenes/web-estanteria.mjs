@@ -44,8 +44,8 @@ ${sparkle({ x: 588, y: 262, r: 13, fill: C.gold })}${sparkle({ x: 590, y: 60, r:
       desc: 'Tarjeta verde oscuro y dorado con una estantería de libros que flotan y uno que se inclina revelando una luz verde. Texto: Libros de fantasía y romance. Órdenes de lectura que se usan de verdad. Botón dorado: laestanteriaoculta.es.',
     },
     bg: C.forest, shadow: C.gold, dotColor: C.gold,
-    titleLines: ['LA ESTANTERÍA', 'OCULTA'], titleSize: 60, titleFill: C.gold, titleShadow: C.ink,
-    subs: ['Libros de fantasía y romance.', 'Órdenes de lectura que se usan de verdad.'],
+    titleLines: ['LA ESTANTERÍA', 'OCULTA'], titleSize: 56, titleFill: C.gold, titleShadow: C.ink,
+    subs: ['Libros de fantasía y romance.', 'Órdenes de lectura que se usan', 'de verdad.'],
     subFill: '#f6efdc', cta: 'laestanteriaoculta.es', ctaFill: C.gold,
     art,
     css: `.fl0{animation:fl 3.2s ease-in-out infinite}

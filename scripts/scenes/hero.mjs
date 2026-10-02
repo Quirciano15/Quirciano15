@@ -42,7 +42,7 @@ ${hola}
 ${ptext('ALBERTO', { x: 44, y: 160, size: 100, fill: '#fff', stroke: C.ink, sw: 12, shadow: { dx: 6, dy: 6, fill: C.ink } })}
 ${ptext('QUIRCE', { x: 44, y: 258, size: 100, fill: C.pink, stroke: C.ink, sw: 12, shadow: { dx: 6, dy: 6, fill: C.ink } })}
 ${typed.svg}
-<text x="46" y="378" font-family="${FONT_MONO}" font-size="22" font-weight="700" fill="${C.ink}" fill-opacity=".7">Full-stack · Madrid · Next.js, motion e IA</text>
+<text x="46" y="378" font-family="${FONT_MONO}" font-size="26" font-weight="700" fill="${C.pinkDeep}">Full-stack · Madrid · Next.js, motion e IA</text>
 ${f.close}`;
   return svgDoc({
     w: W, h: H, css, body,

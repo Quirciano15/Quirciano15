@@ -19,7 +19,7 @@ export function build() {
   const body = `${f.open}
 ${d.defs}${d.rect(W, H)}
 ${ptext('HABLEMOS', { x: 44, y: 96, size: 78, fill: '#fff', stroke: C.ink, sw: 10, shadow: { dx: 5, dy: 5, fill: C.pink } })}
-<text x="48" y="140" font-family="${FONT_MONO}" font-size="22" font-weight="700" fill="#fff">quirciano@gmail.com · Madrid, España</text>
+<text x="48" y="140" font-family="${FONT_MONO}" font-size="26" font-weight="700" fill="#fff">quirciano@gmail.com · Madrid, España</text>
 ${cta}
 ${prism({ x: 720, y: 130, s: 1.25 })}
 ${sparkle({ x: 610, y: 60, r: 14, fill: C.yellow })}${sparkle({ x: 840, y: 52, r: 16, fill: C.green, delay: 0.9 })}${sparkle({ x: 830, y: 205, r: 12, fill: '#fff', delay: 1.5 })}

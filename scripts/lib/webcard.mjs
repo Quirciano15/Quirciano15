@@ -1,9 +1,9 @@
 import { C, FONT_MONO } from './palette.mjs';
-import { svgDoc, frame, sticker, dots } from './svg.mjs';
+import { svgDoc, frame, sticker, dots, esc } from './svg.mjs';
 import { ptext, measure } from './text.mjs';
 import { MASCOT_CSS } from './mascots.mjs';
 
-const W = 900, H = 310;
+const W = 900, H = 330;
 
 export function webCard({
   id, a11y, bg, shadow = C.ink, dotColor = C.ink, titleLines, titleSize, titleFill, titleStroke = C.ink,
@@ -19,9 +19,9 @@ export function webCard({
   const lastBase = first + (titleLines.length - 1) * step;
   const subY = lastBase + 46;
   const subSvg = subs
-    .map((t, i) => `<text x="48" y="${subY + i * 30}" font-family="${FONT_MONO}" font-size="22" font-weight="700" fill="${subFill}">${t}</text>`)
+    .map((t, i) => `<text x="48" y="${subY + i * 30}" font-family="${FONT_MONO}" font-size="26" font-weight="700" fill="${subFill}">${esc(t)}</text>`)
     .join('');
-  const ctaY = subY + (subs.length - 1) * 30 + 22;
+  const ctaY = subY + (subs.length - 1) * 30 + 24;
   const tw = measure(cta, 24).w;
   const ctaW = Math.ceil(tw) + 36 + 46;
   const ctaSvg = sticker({
@@ -34,7 +34,7 @@ export function webCard({
 ${css}`;
   const body = `${f.open}
 ${d.defs}${d.rect(W, H)}
-${art}
+<g transform="translate(0 ${(H - 310) / 2})">${art}</g>
 ${titles}${subSvg}${ctaSvg}
 ${f.close}`;
   return svgDoc({ w: W, h: H, css: allCss, body, title: a11y.title, desc: a11y.desc });

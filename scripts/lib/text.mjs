@@ -18,6 +18,7 @@ const cache = new Map();
 export function measure(str, size) {
   const key = `${str}|${size}`;
   if (cache.has(key)) return cache.get(key);
+  if (!hasGlyphs(str)) throw new Error(`Falta glifo en la fuente para: ${str}`);
   const f = font();
   const run = f.layout(str);
   const k = size / f.unitsPerEm;
@@ -40,6 +41,7 @@ export function hasGlyphs(str) {
 
 /** <path> de texto. `shadow` dibuja antes una copia desplazada (sombra plana de pegatina). */
 export function ptext(str, { x = 0, y = 0, size, fill, stroke, sw = 0, anchor = 'start', shadow, cls = '' }) {
+  if (size < 22) throw new Error(`Texto ilegible en móvil: size ${size} < 22`);
   const { d, w } = measure(str, size);
   const ox = anchor === 'middle' ? x - w / 2 : anchor === 'end' ? x - w : x;
   const st = stroke ? ` stroke="${stroke}" stroke-width="${sw}" stroke-linejoin="round" paint-order="stroke fill"` : '';

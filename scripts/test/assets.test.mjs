@@ -32,8 +32,11 @@ for (const { file, w, h, maxKB } of MANIFEST.filter((m) => !only || m.file === o
     assert.match(s, /@keyframes/);
     assert.match(s, /prefers-reduced-motion: reduce/);
   });
-  test(`${file}: texto legible en móvil (font-size >= 22)`, () => {
+  test(`${file}: texto legible en móvil (font-size >= 26; los trazados lo exige ptext >= 22)`, () => {
     const sizes = [...read().matchAll(/font-size[=:]"?(\d+)/g)].map((m) => Number(m[1]));
-    for (const sz of sizes) assert.ok(sz >= 22, `font-size ${sz} < 22`);
+    for (const sz of sizes) assert.ok(sz >= 26, `font-size ${sz} < 26`);
+  });
+  test(`${file}: sin opacidad reducida en texto (contraste)`, () => {
+    assert.doesNotMatch(read(), /<text[^>]*fill-opacity/);
   });
 }

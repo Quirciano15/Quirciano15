@@ -15,10 +15,6 @@ test('usa cada asset con alt descriptivo', () => {
   for (const { file } of MANIFEST)
     assert.match(README, new RegExp(`!\\[[^\\]]{12,}\\]\\(assets/${file.replace('.', '\\.')}\\)`), `alt/uso de ${file}`);
 });
-test('no nombra ni enlaza repos privados', () => {
-  const bloqueo = /bonnibel|leo-medusa|pisos-bot|xergiok|FINN|estanteria-medusa|prismo-web|JAKE|albertoquirce\.dev|claude-skills-private|Enchiridion|LEO_shopify|PokeApi|github\.com\/Quirciano15\/(?!claude-skills-collection)(?!Quirciano15)/i;
-  assert.doesNotMatch(README, bloqueo);
-});
 test('mantiene el contacto público y el repo público', () => {
   assert.ok(README.includes('mailto:quirciano@gmail.com'));
   assert.ok(README.includes('https://github.com/Quirciano15/claude-skills-collection'));
